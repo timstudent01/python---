@@ -1,0 +1,16 @@
+# [題目9]
+
+# 現有一個List，其內容為： my_list=[10,20,30,10,20,30] 
+# 請找出10位於此List的index位置 請用print(List)的方式輸出結果
+
+# my_list=[10,20,30,10,20,30]
+# my_list_out=[]
+# pos=0
+# # for loop start
+
+for youtube in my_list:
+    pos+=1
+    if youtube == 10:
+        my_list_out.append(pos)
+
+print(my_list_out)
